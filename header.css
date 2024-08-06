@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    background-color: antiquewhite;
+    border: 2px solid white;
+    font-family: monospace;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.numbers{
+    font-size: 15px;
+    padding: 3px white;
+}
+.right-links{
+    font-size: 15px;
+    padding: 3px white;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+.logo {
+    font-size: 20px;
+    color: red;
+    background-color: 9px white;
+    padding: 4px 32px;
+
+}
