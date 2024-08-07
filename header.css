@@ -10,7 +10,7 @@
 }
 .numbers{
     font-size: 15px;
-    padding: 3px white;
+    border: 5px white;
 }
 .right-links{
     font-size: 15px;
@@ -26,7 +26,14 @@ ul {
 .logo {
     font-size: 20px;
     color: red;
-    background-color: 9px white;
+    background-color:  white;
     padding: 4px 32px;
+    font-weight: bolder;
 
+}
+a{
+    font-size:15px;
+    background: white;
+    padding:8px;
+    text-decoration: none;
 }
