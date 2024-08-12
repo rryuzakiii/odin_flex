@@ -9,6 +9,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .container{
     width: 480px;
@@ -50,11 +51,14 @@ body{
 }
 .content{
     color: black;
+    flex-shrink: 0;
+}
+button{
+    padding: 8px 8px;
 }
 .continue{
     background-color: rgb(78, 78, 212);
     color: white;
-    padding: 4px 4px;
 }
 .ruk{
     background-color: white;
