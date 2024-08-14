@@ -18,6 +18,7 @@ body{
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 .warining{
+    display: flex;
     color :rgb(46, 111, 181);
     background-color: rgb(62, 229, 229);
     border-radius: 50%;
@@ -28,7 +29,6 @@ body{
     align-items: center;
     justify-content: center;
     font-weight: 700px;
-    display: flex;
 }
 .heading{
     color: black;
@@ -51,19 +51,20 @@ body{
 }
 .content{
     color: black;
-    flex-shrink: 0;
+    justify-content: center;
 }
 button{
-    padding: 8px 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px 16px;
 }
 .continue{
     background-color: rgb(78, 78, 212);
     color: white;
+    border: 2px solid rgb(78, 78, 212);
 }
 .ruk{
     background-color: white;
     color: rgb(78, 78, 212);
-}
-button{
-    cursor: pointer;
+    border: 1px solid rgb(126, 126, 167);
 }
